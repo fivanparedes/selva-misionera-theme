@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" width="128" height="128">
+  <!-- Background -->
+  <rect width="128" height="128" rx="14" fill="#0e2816"/>
+
+  <!-- Earth / ground strip -->
+  <rect x="0" y="104" width="128" height="24" rx="0" fill="#7a3d1a"/>
+  <rect x="0" y="104" width="128" height="6" fill="#c86e43" opacity="0.5"/>
+
+  <!-- Tree trunks -->
+  <rect x="28" y="72" width="7" height="34" rx="2" fill="#5e3010"/>
+  <rect x="61" y="60" width="8" height="46" rx="2" fill="#5e3010"/>
+  <rect x="94" y="76" width="7" height="30" rx="2" fill="#5e3010"/>
+
+  <!-- Tree crowns – back layer (darker) -->
+  <ellipse cx="32" cy="58" rx="22" ry="26" fill="#2e6e38" opacity="0.85"/>
+  <ellipse cx="96" cy="62" rx="20" ry="23" fill="#2e6e38" opacity="0.85"/>
+
+  <!-- Tree crowns – front / mid -->
+  <ellipse cx="65" cy="44" rx="28" ry="32" fill="#4fa15a"/>
+
+  <!-- Canopy highlights -->
+  <ellipse cx="56" cy="36" rx="14" ry="16" fill="#7fd672" opacity="0.6"/>
+  <ellipse cx="32" cy="50" rx="11" ry="13" fill="#7fd672" opacity="0.45"/>
+  <ellipse cx="96" cy="54" rx="10" ry="12" fill="#7fd672" opacity="0.45"/>
+
+  <!-- Sun / light glint top-right -->
+  <circle cx="104" cy="18" r="10" fill="#dcb170" opacity="0.75"/>
+  <circle cx="104" cy="18" r="6"  fill="#f2e090" opacity="0.6"/>
+</svg>

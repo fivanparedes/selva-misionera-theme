@@ -1,0 +1,60 @@
+{
+	"name": "selva-misionera-theme",
+	"displayName": "Selva Misionera Theme",
+	"description": "Rainforest-inspired VS Code color themes from Misiones, Argentina. Deep jungle greens, tierra colorada earth tones, and arroyo water blues. Dark and light variants.",
+	"version": "0.2.0",
+	"publisher": "fivanparedes",
+	"license": "MIT",
+	"icon": "icon.png",
+	"galleryBanner": {
+		"color": "#0e2816",
+		"theme": "dark"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/fivanparedes/selva-misionera-theme"
+	},
+	"homepage": "https://github.com/fivanparedes/selva-misionera-theme#readme",
+	"bugs": {
+		"url": "https://github.com/fivanparedes/selva-misionera-theme/issues"
+	},
+	"engines": {
+		"vscode": "^1.90.0"
+	},
+	"categories": [
+		"Themes"
+	],
+	"files": [
+		"themes",
+		"icon.png",
+		"README.md",
+		"LICENSE"
+	],
+	"keywords": [
+		"theme",
+		"color-theme",
+		"dark-theme",
+		"light-theme",
+		"nature",
+		"forest",
+		"jungle",
+		"green",
+		"misiones",
+		"argentina",
+		"rainforest"
+	],
+	"contributes": {
+		"themes": [
+			{
+				"label": "Selva Misionera",
+				"uiTheme": "vs-dark",
+				"path": "./themes/selva-misionera-color-theme.json"
+			},
+			{
+				"label": "Selva Misionera Clara",
+				"uiTheme": "vs",
+				"path": "./themes/selva-misionera-clara-color-theme.json"
+			}
+		]
+	}
+}
