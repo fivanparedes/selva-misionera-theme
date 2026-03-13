@@ -2,7 +2,7 @@
 	"name": "selva-misionera-theme",
 	"displayName": "Selva Misionera Theme",
 	"description": "Rainforest-inspired VS Code color themes from Misiones, Argentina. Deep jungle greens, tierra colorada earth tones, and arroyo water blues. Dark and light variants.",
-	"version": "0.2.0",
+	"version": "0.3.0",
 	"publisher": "fivanparedes",
 	"license": "MIT",
 	"icon": "icon.png",
